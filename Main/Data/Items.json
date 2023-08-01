@@ -1,0 +1,58 @@
+[
+    {
+      "Location": "New York",
+      "Role": "Developer",
+      "Notes": "I know how to code in Python, Java, and SQL",
+      "Worker": "Worker",
+      "Username": "John Doe",
+      "Email": "JohnDoe@example.com",
+      "date": "2019-01-01",
+      "duration": 1,
+      "payPerHour": 20
+    },
+    {
+      "Location": "London",
+      "Role": "Dancer",
+      "Notes": "I know how to dance in hip hop, ballet, and tango",
+      "Worker": "Searcher",
+      "Username": "Eric Smith",
+      "Email": "EricSmith@example.com",
+      "date": "2019-01-01",
+      "duration": 3,
+      "payPerHour": 15
+    },
+    {
+      "Location": "Paris",
+      "Role": "Singer",
+      "Notes": "I know how to sing in rap and opera",
+      "Worker": "Searcher",
+      "Username": "Jane Doe",
+      "Email": "JaneDoe@example.com",
+      "date": "2019-01-01",
+      "duration": 7,
+      "payPerHour": 18.75
+    },
+    {
+      "Location": "Tokyo",
+      "Role": "Artist",
+      "Notes": "I know how to draw in pencil, but that's about it",
+      "Worker": "Worker",
+      "Username": "John Smith",
+      "Email": "JohnSmith@example.com",
+      "date": "2019-01-01",
+      "duration": 2,
+      "payPerHour": 11.5
+    },
+    {
+      "Location": "New York",
+      "Role": "Drummer",
+      "Notes": "We need a drummer for our band",
+      "Worker": "Searcher",
+      "Username": "ACDC",
+      "Email": "ACDC@example.com",
+      "date": "2019-01-01",
+      "duration": 1,
+      "payPerHour": 100
+    }
+]
+

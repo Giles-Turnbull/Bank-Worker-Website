@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!--Bootstrap links and javascript files-->
+        <title>Login</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="Styles/LoginStyle.css">
+        <link rel="stylesheet" href="Styles/General.css">
+        <script src="Scripts/LoginScript.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+            <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+        </video>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">&#127974;&#128293;</a>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <!--Find page-->
+                        <a class="nav-link" href="find.html">Find</a>
+                    </li>
+                    <li class="nav-item">
+                        <!--Browse page-->
+                        <a class="nav-link" href="Browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                        <!--Post page-->
+                        <a class="nav-link" href="Post.html">Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <!--About page-->
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>    
+                    </ul>
+                </div>
+                <div class="d-flex nav-link">
+                    <!--User message so you know what user is logged in-->
+                    <div class="text-white pe-2 pt-1" id="hello">
+                        <script>
+                            sessionStorage.getItem("Username")
+                            document.getElementById("hello").innerHTML = "Hello, " + sessionStorage.getItem("Username") + "!";
+                        </script>
+                    </div>
+                    <!--Logout button-->
+                    <button class="btn btn-primary btn-login" onclick="window.location.href = 'Login.html';">Login</button>
+                </div>
+            </div>
+        </nav>
+  
+        <!-- Login -->
+        <div class="container find-page-style p-5">
+            <div class="container">
+                <h1 class="display-5 fw-bolder text-white text-white">Login</h1>
+                <!--Username and password input-->
+                <div class="input-group mb-3 input-group-sm">
+                    <input type="text" class="form-control" placeholder="Username" id="Username-item">
+                </div>
+                <div class="input-group mb-3 input-group-sm">
+                    <input type="password" class="form-control" placeholder="Password" id="Password-item">
+                </div>
+
+                <!--Login button-->
+                <button class="btn btn-secondary" type="button" onclick="login()">Login</button>
+                <!--Forgot password button-->
+                <a href="mailto:helpline@example.com?subject=Lost%20Password&body=I%20am%20an%20idiot%20who%20forgot%20their%20password." target="_top">Need help?</a><br>
+                <!--Register button-->
+                <div class="text-white">
+                New to the site?
+                <a href="Register.html">Register</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+</html>

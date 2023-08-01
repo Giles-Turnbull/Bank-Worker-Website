@@ -1,0 +1,89 @@
+body { 
+    padding-top: 50px; 
+}
+
+/*carousel styling*/
+.c-item {
+    height: 480px;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-item {
+    transition: transform 1.5s ease-in-out;
+  }
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 1.5s;
+}
+
+
+.navbar{
+    background-color: rgba(255, 34, 34, 0.8);
+    height: 50px;
+}
+
+.small-banner {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    background-color: rgba(255, 34, 34, 0.5);
+}
+
+
+.body-ody {
+    background-color: rgba(128, 170, 217, 0.3);
+    box-shadow: 5px 10px 18px rgba(0,0,0,0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.btn-banner {
+    background-color: rgba(128, 170, 217, 1);
+    transition-property: transform, background-color, box-shadow;
+    transition-duration: 0.4s, 0.4s, 0.4s;
+}
+.btn-banner:hover {
+    transform: scale(1.05);
+    background-color: rgba(87, 130, 180, 1);
+    box-shadow: 2px 5px 9px #000000;
+}
+
+
+
+.bg-Browse {
+    background-color: rgba(128, 170, 217, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 99%;
+}
+
+.btn-top{
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    border: none;
+    border-radius: 0px;
+}
+.btn-top:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.footer {
+    color: gray;
+    padding-left: 10px;
+}
